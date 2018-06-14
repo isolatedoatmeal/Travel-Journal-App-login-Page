@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1515B1920D2DC1B0061DDC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1515B1820D2DC1B0061DDC5 /* AppDelegate.swift */; };
+		F1515B1B20D2DC1B0061DDC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1515B1A20D2DC1B0061DDC5 /* ViewController.swift */; };
+		F1515B1E20D2DC1B0061DDC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1515B1C20D2DC1B0061DDC5 /* Main.storyboard */; };
+		F1515B2120D2DC1B0061DDC5 /* Travel_Social_media.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F1515B1F20D2DC1B0061DDC5 /* Travel_Social_media.xcdatamodeld */; };
+		F1515B2320D2DC1D0061DDC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1515B2220D2DC1D0061DDC5 /* Assets.xcassets */; };
+		F1515B2620D2DC1D0061DDC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1515B2420D2DC1D0061DDC5 /* LaunchScreen.storyboard */; };
+		F1515B3120D2DC1D0061DDC5 /* Travel_Social_mediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1515B3020D2DC1D0061DDC5 /* Travel_Social_mediaTests.swift */; };
+		F1515B3C20D2DC1D0061DDC5 /* Travel_Social_mediaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1515B3B20D2DC1D0061DDC5 /* Travel_Social_mediaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1515B2D20D2DC1D0061DDC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1515B0D20D2DC1B0061DDC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1515B1420D2DC1B0061DDC5;
+			remoteInfo = "Travel Social media";
+		};
+		F1515B3820D2DC1D0061DDC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1515B0D20D2DC1B0061DDC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1515B1420D2DC1B0061DDC5;
+			remoteInfo = "Travel Social media";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1515B1520D2DC1B0061DDC5 /* Travel Social media.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Travel Social media.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1515B1820D2DC1B0061DDC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1515B1A20D2DC1B0061DDC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1515B1D20D2DC1B0061DDC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1515B2020D2DC1B0061DDC5 /* Travel_Social_media.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Travel_Social_media.xcdatamodel; sourceTree = "<group>"; };
+		F1515B2220D2DC1D0061DDC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1515B2520D2DC1D0061DDC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1515B2720D2DC1D0061DDC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1515B2C20D2DC1D0061DDC5 /* Travel Social mediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Travel Social mediaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1515B3020D2DC1D0061DDC5 /* Travel_Social_mediaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Travel_Social_mediaTests.swift; sourceTree = "<group>"; };
+		F1515B3220D2DC1D0061DDC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1515B3720D2DC1D0061DDC5 /* Travel Social mediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Travel Social mediaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1515B3B20D2DC1D0061DDC5 /* Travel_Social_mediaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Travel_Social_mediaUITests.swift; sourceTree = "<group>"; };
+		F1515B3D20D2DC1D0061DDC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1515B1220D2DC1B0061DDC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1515B2920D2DC1D0061DDC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1515B3420D2DC1D0061DDC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1515B0C20D2DC1B0061DDC5 = {
+			isa = PBXGroup;
+			children = (
+				F1515B1720D2DC1B0061DDC5 /* Travel Social media */,
+				F1515B2F20D2DC1D0061DDC5 /* Travel Social mediaTests */,
+				F1515B3A20D2DC1D0061DDC5 /* Travel Social mediaUITests */,
+				F1515B1620D2DC1B0061DDC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1515B1620D2DC1B0061DDC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1515B1520D2DC1B0061DDC5 /* Travel Social media.app */,
+				F1515B2C20D2DC1D0061DDC5 /* Travel Social mediaTests.xctest */,
+				F1515B3720D2DC1D0061DDC5 /* Travel Social mediaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1515B1720D2DC1B0061DDC5 /* Travel Social media */ = {
+			isa = PBXGroup;
+			children = (
+				F1515B1820D2DC1B0061DDC5 /* AppDelegate.swift */,
+				F1515B1A20D2DC1B0061DDC5 /* ViewController.swift */,
+				F1515B1C20D2DC1B0061DDC5 /* Main.storyboard */,
+				F1515B2220D2DC1D0061DDC5 /* Assets.xcassets */,
+				F1515B2420D2DC1D0061DDC5 /* LaunchScreen.storyboard */,
+				F1515B2720D2DC1D0061DDC5 /* Info.plist */,
+				F1515B1F20D2DC1B0061DDC5 /* Travel_Social_media.xcdatamodeld */,
+			);
+			path = "Travel Social media";
+			sourceTree = "<group>";
+		};
+		F1515B2F20D2DC1D0061DDC5 /* Travel Social mediaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1515B3020D2DC1D0061DDC5 /* Travel_Social_mediaTests.swift */,
+				F1515B3220D2DC1D0061DDC5 /* Info.plist */,
+			);
+			path = "Travel Social mediaTests";
+			sourceTree = "<group>";
+		};
+		F1515B3A20D2DC1D0061DDC5 /* Travel Social mediaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1515B3B20D2DC1D0061DDC5 /* Travel_Social_mediaUITests.swift */,
+				F1515B3D20D2DC1D0061DDC5 /* Info.plist */,
+			);
+			path = "Travel Social mediaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1515B1420D2DC1B0061DDC5 /* Travel Social media */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1515B4020D2DC1D0061DDC5 /* Build configuration list for PBXNativeTarget "Travel Social media" */;
+			buildPhases = (
+				F1515B1120D2DC1B0061DDC5 /* Sources */,
+				F1515B1220D2DC1B0061DDC5 /* Frameworks */,
+				F1515B1320D2DC1B0061DDC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Travel Social media";
+			productName = "Travel Social media";
+			productReference = F1515B1520D2DC1B0061DDC5 /* Travel Social media.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1515B2B20D2DC1D0061DDC5 /* Travel Social mediaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1515B4320D2DC1D0061DDC5 /* Build configuration list for PBXNativeTarget "Travel Social mediaTests" */;
+			buildPhases = (
+				F1515B2820D2DC1D0061DDC5 /* Sources */,
+				F1515B2920D2DC1D0061DDC5 /* Frameworks */,
+				F1515B2A20D2DC1D0061DDC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1515B2E20D2DC1D0061DDC5 /* PBXTargetDependency */,
+			);
+			name = "Travel Social mediaTests";
+			productName = "Travel Social mediaTests";
+			productReference = F1515B2C20D2DC1D0061DDC5 /* Travel Social mediaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1515B3620D2DC1D0061DDC5 /* Travel Social mediaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1515B4620D2DC1D0061DDC5 /* Build configuration list for PBXNativeTarget "Travel Social mediaUITests" */;
+			buildPhases = (
+				F1515B3320D2DC1D0061DDC5 /* Sources */,
+				F1515B3420D2DC1D0061DDC5 /* Frameworks */,
+				F1515B3520D2DC1D0061DDC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1515B3920D2DC1D0061DDC5 /* PBXTargetDependency */,
+			);
+			name = "Travel Social mediaUITests";
+			productName = "Travel Social mediaUITests";
+			productReference = F1515B3720D2DC1D0061DDC5 /* Travel Social mediaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1515B0D20D2DC1B0061DDC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = IsolatedOatmeal;
+				TargetAttributes = {
+					F1515B1420D2DC1B0061DDC5 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					F1515B2B20D2DC1D0061DDC5 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = F1515B1420D2DC1B0061DDC5;
+					};
+					F1515B3620D2DC1D0061DDC5 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = F1515B1420D2DC1B0061DDC5;
+					};
+				};
+			};
+			buildConfigurationList = F1515B1020D2DC1B0061DDC5 /* Build configuration list for PBXProject "Travel Social media" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1515B0C20D2DC1B0061DDC5;
+			productRefGroup = F1515B1620D2DC1B0061DDC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1515B1420D2DC1B0061DDC5 /* Travel Social media */,
+				F1515B2B20D2DC1D0061DDC5 /* Travel Social mediaTests */,
+				F1515B3620D2DC1D0061DDC5 /* Travel Social mediaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1515B1320D2DC1B0061DDC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1515B2620D2DC1D0061DDC5 /* LaunchScreen.storyboard in Resources */,
+				F1515B2320D2DC1D0061DDC5 /* Assets.xcassets in Resources */,
+				F1515B1E20D2DC1B0061DDC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1515B2A20D2DC1D0061DDC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1515B3520D2DC1D0061DDC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1515B1120D2DC1B0061DDC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1515B2120D2DC1B0061DDC5 /* Travel_Social_media.xcdatamodeld in Sources */,
+				F1515B1B20D2DC1B0061DDC5 /* ViewController.swift in Sources */,
+				F1515B1920D2DC1B0061DDC5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1515B2820D2DC1D0061DDC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1515B3120D2DC1D0061DDC5 /* Travel_Social_mediaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1515B3320D2DC1D0061DDC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1515B3C20D2DC1D0061DDC5 /* Travel_Social_mediaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1515B2E20D2DC1D0061DDC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1515B1420D2DC1B0061DDC5 /* Travel Social media */;
+			targetProxy = F1515B2D20D2DC1D0061DDC5 /* PBXContainerItemProxy */;
+		};
+		F1515B3920D2DC1D0061DDC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1515B1420D2DC1B0061DDC5 /* Travel Social media */;
+			targetProxy = F1515B3820D2DC1D0061DDC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1515B1C20D2DC1B0061DDC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1515B1D20D2DC1B0061DDC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1515B2420D2DC1D0061DDC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1515B2520D2DC1D0061DDC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1515B3E20D2DC1D0061DDC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1515B3F20D2DC1D0061DDC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1515B4120D2DC1D0061DDC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Travel Social media/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.isolatedoatmeal.Landslide.Travel-Social-media";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1515B4220D2DC1D0061DDC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Travel Social media/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.isolatedoatmeal.Landslide.Travel-Social-media";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F1515B4420D2DC1D0061DDC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Travel Social mediaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.isolatedoatmeal.Landslide.Travel-Social-mediaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Travel Social media.app/Travel Social media";
+			};
+			name = Debug;
+		};
+		F1515B4520D2DC1D0061DDC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Travel Social mediaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.isolatedoatmeal.Landslide.Travel-Social-mediaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Travel Social media.app/Travel Social media";
+			};
+			name = Release;
+		};
+		F1515B4720D2DC1D0061DDC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Travel Social mediaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.isolatedoatmeal.Landslide.Travel-Social-mediaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Travel Social media";
+			};
+			name = Debug;
+		};
+		F1515B4820D2DC1D0061DDC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Travel Social mediaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.isolatedoatmeal.Landslide.Travel-Social-mediaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Travel Social media";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1515B1020D2DC1B0061DDC5 /* Build configuration list for PBXProject "Travel Social media" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1515B3E20D2DC1D0061DDC5 /* Debug */,
+				F1515B3F20D2DC1D0061DDC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1515B4020D2DC1D0061DDC5 /* Build configuration list for PBXNativeTarget "Travel Social media" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1515B4120D2DC1D0061DDC5 /* Debug */,
+				F1515B4220D2DC1D0061DDC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1515B4320D2DC1D0061DDC5 /* Build configuration list for PBXNativeTarget "Travel Social mediaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1515B4420D2DC1D0061DDC5 /* Debug */,
+				F1515B4520D2DC1D0061DDC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1515B4620D2DC1D0061DDC5 /* Build configuration list for PBXNativeTarget "Travel Social mediaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1515B4720D2DC1D0061DDC5 /* Debug */,
+				F1515B4820D2DC1D0061DDC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F1515B1F20D2DC1B0061DDC5 /* Travel_Social_media.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F1515B2020D2DC1B0061DDC5 /* Travel_Social_media.xcdatamodel */,
+			);
+			currentVersion = F1515B2020D2DC1B0061DDC5 /* Travel_Social_media.xcdatamodel */;
+			path = Travel_Social_media.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F1515B0D20D2DC1B0061DDC5 /* Project object */;
+}
